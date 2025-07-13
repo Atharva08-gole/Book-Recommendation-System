@@ -1,5 +1,5 @@
 A simple yet effective Book Recommendation System built with Flask, Pandas, and Pickle. This project recommends similar books based on user input using a content-based filtering approach.# Book-Recommendation-System
-
+ 
 📂 Project Structure
 .
 ├── app.py                  # Main Flask app
@@ -29,13 +29,12 @@ pip install -r requirements.txt
 flask
 numpy
 pandas
+3] download this dataset:
+https://www.kaggle.com/datasets/sinatavakoli/books-dataset-for-nlp-and-recommendation-systems
 
-💻 Running the App
-1]Clone the repository:
-    git clone https://github.com/yourusername/book-recommendation-system.git
-    cd book-recommendation-system
-2]Ensure popular.pkl, pt.pkl, books.pkl, and similarity_scores.pkl are in the root folder.
-3]Run the Flask app:
+💻 Running the App:
+1]Ensure popular.pkl, pt.pkl, books.pkl, and similarity_scores.pkl are in the root folder.
+2]Run the Flask app:
     python app.py
 4]Visit http://127.0.0.1:5000/ in your browser.
 
